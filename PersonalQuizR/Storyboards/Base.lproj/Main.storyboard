@@ -337,6 +337,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="animalTypeLabel" destination="38X-kU-UYf" id="EzK-JN-4wP"/>
+                        <outlet property="descriptionLabel" destination="Yed-kk-gHf" id="gsc-2W-QrK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ycx-DR-KJj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -347,7 +351,6 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iPp-cB-C1U" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="4yO-ra-223"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="oIH-Hd-EPI">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
